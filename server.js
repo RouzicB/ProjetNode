@@ -8,5 +8,5 @@ console.log( `Serveur listening at http://localhost:${port}`) ;
 } )
 
 app.get( '/' , ( req , res , next ) => {
-res.send('Bonjour !') ;
+res.send('Bonjour tu pue!') ;
 } ) ;
